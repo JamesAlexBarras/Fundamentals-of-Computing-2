@@ -1,0 +1,11 @@
+The objective of this project was to implement various functions for 
+node based sets such as add, equals, remove, contain, union, intersection, 
+and a few others. This project also explored differences in time complexity 
+by implementing these methods for both LinkedSet and Set structures in which 
+Sets do not have to maintain order among elements whereas LinkedSets do. 
+An example of this difference in time complexity would be in the add method, 
+where for Set structures you can implement this in constant time whereas 
+LinkedSets require N time complexity. The hardest part of this project was 
+the PowerSetIterator that we had to implement, which as the name implies, 
+provides an iterator over the power set of a set. 
+This was just a difficult conceptual challenge.
