@@ -1,0 +1,13 @@
+The prompt for this project was to create a word search game using the 
+principles of recursive depth first search. Given a 2d array of characters, 
+the "player" inputs words that they believe to be on the array and then an 
+algorithm checks to see if this word is on the board via recursive depth 
+first search. The algorithm searches for a starting point, then retrieves 
+the neighboring characters and determine if they are a part of the called 
+word by using said word as a blueprint, if the character fits then it 
+retrieves the neighbors of it and keeps going until the word is constructed,
+if a dead end is reached the algorithm recursively backtracks through the 
+board until it finds another possible path. The was definitely a hard project 
+as it was my first time using this type of searching and there were a lot of 
+other things I had never done before such as using a 
+2d array as a "board" and keeping up with visited positions on it.
