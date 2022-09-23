@@ -1,0 +1,13 @@
+The goal of this project was to implement an autocomplete function similar 
+to a google search bar's. So that, given a prefix you could output the most 
+likely lines to follow that prefix (EX. if a person types "what to feed my ", 
+google would print a list of the most likely complete versions of that string).
+This program is that sophisticated though because it takes in a list of 
+terms with set weights, thus allowing us to determine those most likely 
+to follow a prefix. In this project we implemented our own comparators 
+based on weight and prefix order. We also implemented binary search 
+methods that search a lexicon for the index of the first term to have 
+a given prefix, and the index of the last term to have a given prefix.
+The hardest part of this project was implementing the comparators because 
+they can be a little hard to understand conceptually when you're trying to 
+define what you want less than, greater than, and equal to mean.
