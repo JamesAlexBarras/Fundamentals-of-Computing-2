@@ -1,0 +1,10 @@
+The prompt of this project was to implement various methods for a word 
+ladder game. A word ladder is a sequence of words where you can get from 
+the first word to the last through a sequence of words where each subsequent 
+word has one changed letter from the previous word (EX. [cat, cot, dot, dog]). 
+The core of this project was to implement this game using the principles of 
+breadth first search. The main things I learned from this project were the 
+principles behind breadth first search, how to implement breadth first search,
+how to define and implement a method for retrieving "neighbors", and how to 
+effectively use queues. Given what I learned from this project, 
+I feel confident that I could implement this search pattern for any purpose
